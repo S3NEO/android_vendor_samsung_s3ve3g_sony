@@ -227,3 +227,4 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
