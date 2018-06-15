@@ -231,6 +231,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/soundfx/libqcbassboost.so:system/vendor/lib/soundfx/libqcbassboost.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
-	vendor/samsung/s3ve3g/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \	
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
  
 
