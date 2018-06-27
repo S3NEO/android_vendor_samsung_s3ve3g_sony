@@ -139,6 +139,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
 	vendor/samsung/s3ve3g/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
 	vendor/samsung/s3ve3g/proprietary/bin/qseecomd:system/bin/qseecomd \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
