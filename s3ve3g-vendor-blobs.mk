@@ -141,7 +141,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-	vendor/samsung/s3ve3g/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
 	vendor/samsung/s3ve3g/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
 	vendor/samsung/s3ve3g/proprietary/lib/hw/gps.msm8226.so:system/lib/hw/gps.msm8226.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
