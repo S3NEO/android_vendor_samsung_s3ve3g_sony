@@ -232,9 +232,18 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
+<<<<<<< HEAD
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so
+=======
+	vendor/motorola/msm8226-common/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+	vendor/motorola/msm8226-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
+	vendor/motorola/msm8226-common/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+	vendor/motorola/msm8226-common/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
+	vendor/motorola/msm8226-common/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+	vendor/motorola/msm8226-common/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so
+>>>>>>> 6f477451cfd7263d6c442f00bfac04068157030a
