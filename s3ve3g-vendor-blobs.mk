@@ -227,5 +227,14 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/soundfx/libqcvirt.so:system/vendor/lib/soundfx/libqcvirt.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so 
-	
+	vendor/samsung/s3ve3g/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libOmxMux.so:system/vendor/lib/libOmxMux.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so
