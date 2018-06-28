@@ -145,7 +145,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/bin/qseecomd:system/bin/qseecomd \
 	vendor/samsung/s3ve3g/proprietary/lib/libwvm.so:system/vendor/lib/libwvm.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-	vendor/samsung/s3ve3g/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdrmdiag.so \
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
