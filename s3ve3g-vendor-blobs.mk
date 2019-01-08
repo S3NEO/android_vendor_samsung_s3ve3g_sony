@@ -215,8 +215,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 	vendor/samsung/s3ve3g/proprietary/bin/qmuxd:system/bin/qmuxd \
 	vendor/samsung/s3ve3g/proprietary/bin/radish:system/bin/radish \
-	vendor/samsung/s3ve3g/proprietary/bin/rfs_access:system/bin/rfs_access \
 	vendor/samsung/s3ve3g/proprietary/bin/rild:system/bin/rild \
+	vendor/samsung/s3ve3g/proprietary/bin/rfs_access:system/bin/rfs_access \
 	vendor/samsung/s3ve3g/proprietary/bin/netmgrd:system/bin/netmgrd \
 	vendor/samsung/s3ve3g/proprietary/bin/rmt_storage:system/bin/rmt_storage \
 	vendor/samsung/s3ve3g/proprietary/lib/libatparser.so:system/lib/libatparser.so \
