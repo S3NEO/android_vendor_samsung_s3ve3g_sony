@@ -37,8 +37,8 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
 	vendor/samsung/s3ve3g/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
 	vendor/samsung/s3ve3g/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
-	vendor/samsung/s3ve3g/proprietary/etc/data/permissions/qcnvitems.xml:system/etc/data/permissions/qcnvitems.xml\
-	vendor/samsung/s3ve3g/proprietary/etc/data/permissions/qcrilhook.xml:system/etc/data/permissions/qcrilhook.xml\
+	vendor/samsung/s3ve3g/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml\
+	vendor/samsung/s3ve3g/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml\
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libacdbrtac.so:system/vendor/lib/libacdbrtac.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
@@ -223,6 +223,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/lib/libcordon.so:system/lib/libcordon.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	vendor/samsung/s3ve3g/proprietary/lib/librilutils.so:system/lib/librilutils.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
