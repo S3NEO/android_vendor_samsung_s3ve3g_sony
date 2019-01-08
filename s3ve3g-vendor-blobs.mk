@@ -215,7 +215,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 	vendor/samsung/s3ve3g/proprietary/bin/qmuxd:system/bin/qmuxd \
 	vendor/samsung/s3ve3g/proprietary/bin/radish:system/bin/radish \
-	vendor/samsung/s3ve3g/proprietary/bin/rild:system/bin/rild \
 	vendor/samsung/s3ve3g/proprietary/bin/rfs_access:system/bin/rfs_access \
 	vendor/samsung/s3ve3g/proprietary/bin/netmgrd:system/bin/netmgrd \
 	vendor/samsung/s3ve3g/proprietary/bin/rmt_storage:system/bin/rmt_storage \
@@ -224,8 +223,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
-	vendor/samsung/s3ve3g/proprietary/lib/librilutils.so:system/lib/librilutils.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libril.so:system/lib/libril.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
