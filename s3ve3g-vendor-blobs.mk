@@ -23,7 +23,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libstlport.so:vendor/lib/libstlport.so \
     	vendor/samsung/s3ve3g/proprietary/vendor/lib/librs_adreno.so:vendor/lib/librs_adreno.so \
     	vendor/samsung/s3ve3g/proprietary/vendor/lib/librs_adreno_sha1.so:vendor/lib/librs_adreno_sha1.so \
-	vendor/samsung/s3ve3g/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+	vendor/samsung/s3ve3g/proprietary/bin/adsprpcd:vendor/bin/adsprpcd \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libadsprpc.so:vendor/lib/libadsprpc.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libfastcvadsp_stub.so:vendor/lib/libfastcvadsp_stub.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libfastcvopt.so:vendor/lib/libfastcvopt.so \
@@ -32,37 +32,37 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:vendor/lib/rfsa/adsp/libdspCV_skel.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp.so:vendor/lib/rfsa/adsp/libfastcvadsp.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
-	vendor/samsung/s3ve3g/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/etc/Handset_cal.acdb:system/etc/Handset_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
+	vendor/samsung/s3ve3g/proprietary/etc/Bluetooth_cal.acdb:vendor/etc/Bluetooth_cal.acdb \
+	vendor/samsung/s3ve3g/proprietary/etc/General_cal.acdb:vendor/etc/General_cal.acdb \
+	vendor/samsung/s3ve3g/proprietary/etc/Global_cal.acdb:vendor/etc/Global_cal.acdb \
+	vendor/samsung/s3ve3g/proprietary/etc/Handset_cal.acdb:vendor/etc/Handset_cal.acdb \
+	vendor/samsung/s3ve3g/proprietary/etc/Hdmi_cal.acdb:vendor/etc/Hdmi_cal.acdb \
+	vendor/samsung/s3ve3g/proprietary/etc/Headset_cal.acdb:vendor/etc/Headset_cal.acdb \
+	vendor/samsung/s3ve3g/proprietary/etc/Speaker_cal.acdb:vendor/etc/Speaker_cal.acdb \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libacdbloader.so:vendor/lib/libacdbloader.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libacdbrtac.so:vendor/lib/libacdbrtac.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libadiertac.so:vendor/lib/libadiertac.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libaudcal.so:vendor/lib/libaudcal.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libcsd-client.so:vendor/lib/libcsd-client.so \
-	vendor/samsung/s3ve3g/proprietary/bin/btnvtool:system/bin/btnvtool \
-	vendor/samsung/s3ve3g/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+	vendor/samsung/s3ve3g/proprietary/bin/btnvtool:vendor/bin/btnvtool \
+	vendor/samsung/s3ve3g/proprietary/bin/hci_qcomm_init:vendor/bin/hci_qcomm_init \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libbtnv.so:vendor/lib/libbtnv.so \
-	vendor/samsung/s3ve3g/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-	vendor/samsung/s3ve3g/proprietary/lib/hw/camera.vendor.msm8226.so:system/lib/hw/camera.vendor.msm8226.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libarcsoft_flawlessface.so:system/lib/libarcsoft_flawlessface.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libarcsoft_night_shot.so:system/lib/libarcsoft_night_shot.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libarcsoft_panorama_burstcapture.so:system/lib/libarcsoft_panorama_burstcapture.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libarcsoft_picaction.so:system/lib/libarcsoft_picaction.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libarcsoft_sensorndk.so:system/lib/libarcsoft_sensorndk.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libarcsoft_skin_soften.so:system/lib/libarcsoft_skin_soften.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libmmcamera_cac.so:system/lib/libmmcamera_cac.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libmmcamera_cac2_lib.so:system/lib/libmmcamera_cac2_lib.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libmmcamera_fidelix_eeprom.so:system/lib/libmmcamera_fidelix_eeprom.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libmmcamera2_stats_algorithm.so:system/lib/libmmcamera2_stats_algorithm.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
+	vendor/samsung/s3ve3g/proprietary/bin/mm-qcamera-daemon:vendor/bin/mm-qcamera-daemon \
+	vendor/samsung/s3ve3g/proprietary/lib/hw/camera.vendor.msm8226.so:vendor/lib/hw/camera.vendor.msm8226.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libarcsoft_flawlessface.so:vendor/lib/libarcsoft_flawlessface.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libarcsoft_night_shot.so:vendor/lib/libarcsoft_night_shot.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libarcsoft_panorama_burstcapture.so:vendor/lib/libarcsoft_panorama_burstcapture.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libarcsoft_picaction.so:vendor/lib/libarcsoft_picaction.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libarcsoft_sensorndk.so:vendor/lib/libarcsoft_sensorndk.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libarcsoft_skin_soften.so:vendor/lib/libarcsoft_skin_soften.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libmmcamera_cac.so:vendor/lib/libmmcamera_cac.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libmmcamera_cac2_lib.so:vendor/lib/libmmcamera_cac2_lib.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libmmcamera_fidelix_eeprom.so:vendor/lib/libmmcamera_fidelix_eeprom.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libmmcamera_interface.so:vendor/lib/libmmcamera_interface.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libmmcamera_wavelet_lib.so:vendor/lib/libmmcamera_wavelet_lib.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libmmcamera2_stats_algorithm.so:vendor/lib/libmmcamera2_stats_algorithm.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libmmjpeg_interface.so:vendor/lib/libmmjpeg_interface.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libqomx_core.so:vendor/lib/libqomx_core.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libactuator_ak7345_camcorder.so:vendor/lib/libactuator_ak7345_camcorder.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libactuator_ak7345_camera.so:vendor/lib/libactuator_ak7345_camera.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libactuator_dw9804_camcorder.so:vendor/lib/libactuator_dw9804_camcorder.so \
@@ -93,18 +93,18 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqomx_jpegdec.so:vendor/lib/libqomx_jpegdec.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libqomx_jpegenc.so:vendor/lib/libqomx_jpegenc.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libsensor1.so:vendor/lib/libsensor1.so \
-	vendor/samsung/s3ve3g/proprietary/lib/B08QT_libTsAe.so:system/lib/B08QT_libTsAe.so \
-	vendor/samsung/s3ve3g/proprietary/lib/B08QT_libTsAf.so:system/lib/B08QT_libTsAf.so \
-	vendor/samsung/s3ve3g/proprietary/lib/B08QT_libTs_J_Accm.so:system/lib/B08QT_libTs_J_Accm.so \
-	vendor/samsung/s3ve3g/proprietary/lib/B08QT_libTs_J_Awb.so:system/lib/B08QT_libTs_J_Awb.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libAfSingle.so:system/lib/libAfSingle.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libchromatix_s5k6a3yx_smart_stay.so:system/lib/libchromatix_s5k6a3yx_smart_stay.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libchromatix_s5k6a3yx_vt.so:system/lib/libchromatix_s5k6a3yx_vt.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libchromatix_s5k6a3yx_vt_hd.so:system/lib/libchromatix_s5k6a3yx_vt_hd.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libTsAe.so:system/lib/libTsAe.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libTs_J_Awb.so:system/lib/libTs_J_Awb.so \
+	vendor/samsung/s3ve3g/proprietary/lib/B08QT_libTsAe.so:vendor/lib/B08QT_libTsAe.so \
+	vendor/samsung/s3ve3g/proprietary/lib/B08QT_libTsAf.so:vendor/lib/B08QT_libTsAf.so \
+	vendor/samsung/s3ve3g/proprietary/lib/B08QT_libTs_J_Accm.so:vendor/lib/B08QT_libTs_J_Accm.so \
+	vendor/samsung/s3ve3g/proprietary/lib/B08QT_libTs_J_Awb.so:vendor/lib/B08QT_libTs_J_Awb.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libAfSingle.so:vendor/lib/libAfSingle.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libchromatix_s5k6a3yx_smart_stay.so:vendor/lib/libchromatix_s5k6a3yx_smart_stay.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libchromatix_s5k6a3yx_vt.so:vendor/lib/libchromatix_s5k6a3yx_vt.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libchromatix_s5k6a3yx_vt_hd.so:vendor/lib/libchromatix_s5k6a3yx_vt_hd.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libTsAe.so:vendor/lib/libTsAe.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libTsAf.so:vendor/lib/libTsAf.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libTs_J_Accm.so:vendor/lib/libTs_J_Accm.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libTs_J_Awb.so:vendor/lib/libTs_J_Awb.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/B08QT_libchromatix_imx175_common.so:vendor/lib/B08QT_libchromatix_imx175_common.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/B08QT_libchromatix_imx175_common_res0.so:vendor/lib/B08QT_libchromatix_imx175_common_res0.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/B08QT_libchromatix_imx175_common_res1.so:vendor/lib/B08QT_libchromatix_imx175_common_res1.so \
@@ -135,17 +135,17 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libchromatix_s5k6a3yx_snapshot.so:vendor/lib/libchromatix_s5k6a3yx_snapshot.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libchromatix_s5k6a3yx_video_hd.so:vendor/lib/libchromatix_s5k6a3yx_video_hd.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libchromatix_s5k6a3yx_zsl.so:vendor/lib/libchromatix_s5k6a3yx_zsl.so \
-	vendor/samsung/s3ve3g/proprietary/etc/B08QT_imx175_module_info.xml:system/etc/B08QT_imx175_module_info.xml \
-	vendor/samsung/s3ve3g/proprietary/etc/E08QL_s5k4h5yb_module_info.xml:system/etc/E08QL_s5k4h5yb_module_info.xml \
-	vendor/samsung/s3ve3g/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-	vendor/samsung/s3ve3g/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-	vendor/samsung/s3ve3g/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-	vendor/samsung/s3ve3g/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-	vendor/samsung/s3ve3g/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
-	vendor/samsung/s3ve3g/proprietary/bin/qseecomd:system/bin/qseecomd \
-	vendor/samsung/s3ve3g/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
+	vendor/samsung/s3ve3g/proprietary/etc/B08QT_imx175_module_info.xml:vendor/etc/B08QT_imx175_module_info.xml \
+	vendor/samsung/s3ve3g/proprietary/etc/E08QL_s5k4h5yb_module_info.xml:vendor/etc/E08QL_s5k4h5yb_module_info.xml \
+	vendor/samsung/s3ve3g/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:vendor/etc/firmware/cpp_firmware_v1_1_1.fw \
+	vendor/samsung/s3ve3g/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:vendor/etc/firmware/cpp_firmware_v1_1_6.fw \
+	vendor/samsung/s3ve3g/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:vendor/etc/firmware/cpp_firmware_v1_2_0.fw \
+	vendor/samsung/s3ve3g/proprietary/cameradata/datapattern_420sp.yuv:vendor/cameradata/datapattern_420sp.yuv \
+	vendor/samsung/s3ve3g/proprietary/cameradata/datapattern_front_420sp.yuv:vendor/cameradata/datapattern_front_420sp.yuv \
+	vendor/samsung/s3ve3g/proprietary/bin/qseecomd:vendor/bin/qseecomd \
+	vendor/samsung/s3ve3g/proprietary/lib/drm/libdrmwvmplugin.so:vendor/lib/drm/libdrmwvmplugin.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:vendor/lib/mediadrm/libwvdrmengine.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libdrmdecrypt.so:vendor/lib/libdrmdecrypt.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libdrmdiag.so:vendor/lib/libdrmdiag.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libdrmfs.so:vendor/lib/libdrmfs.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libdrmtime.so:vendor/lib/libdrmtime.so \
@@ -153,14 +153,14 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/librpmb.so:vendor/lib/librpmb.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libssd.so:vendor/lib/libssd.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libwvdrm_L3.so:vendor/lib/libwvdrm_L3.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libwvm.so:vendor/lib/libwvm.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:vendor/lib/libWVStreamControlAPI_L3.so \
-	vendor/samsung/s3ve3g/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
-	vendor/samsung/s3ve3g/proprietary/lib/hw/gps.msm8226.so:system/lib/hw/gps.msm8226.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libgps.utils.so:system/lib/libgps.utils.so \
+	vendor/samsung/s3ve3g/proprietary/lib/hw/flp.default.so:vendor/lib/hw/flp.default.so \
+	vendor/samsung/s3ve3g/proprietary/lib/hw/gps.msm8226.so:vendor/lib/hw/gps.msm8226.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libloc_api_v02.so:vendor/lib/libloc_api_v02.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libloc_core.so:vendor/lib/libloc_core.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libloc_eng.so:vendor/lib/libloc_eng.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libgps.utils.so:vendor/lib/libgps.utils.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libgeofence.so:vendor/lib/libgeofence.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libizat_core.so:vendor/lib/libizat_core.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/liblbs_core.so:vendor/lib/liblbs_core.so \
@@ -178,12 +178,12 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libllvm-qcom.so:vendor/lib/libllvm-qcom.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libOpenCL.so:vendor/lib/libOpenCL.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libsc-a3xx.so:vendor/lib/libsc-a3xx.so \
-	vendor/samsung/s3ve3g/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-	vendor/samsung/s3ve3g/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-	vendor/samsung/s3ve3g/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-	vendor/samsung/s3ve3g/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-	vendor/samsung/s3ve3g/proprietary/bin/irsc_util:system/bin/irsc_util \
-	vendor/samsung/s3ve3g/proprietary/etc/sec_config:system/etc/sec_config \
+	vendor/samsung/s3ve3g/proprietary/etc/firmware/a300_pfp.fw:vendor/etc/firmware/a300_pfp.fw \
+	vendor/samsung/s3ve3g/proprietary/etc/firmware/a300_pm4.fw:vendor/etc/firmware/a300_pm4.fw \
+	vendor/samsung/s3ve3g/proprietary/etc/firmware/a330_pfp.fw:vendor/etc/firmware/a330_pfp.fw \
+	vendor/samsung/s3ve3g/proprietary/etc/firmware/a330_pm4.fw:vendor/etc/firmware/a330_pm4.fw \
+	vendor/samsung/s3ve3g/proprietary/bin/irsc_util:vendor/bin/irsc_util \
+	vendor/samsung/s3ve3g/proprietary/etc/sec_config:vendor/etc/sec_config \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libDivxDrm.so:vendor/lib/libDivxDrm.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libI420colorconvert.so:vendor/lib/libI420colorconvert.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libmm-color-convertor.so:vendor/lib/libmm-color-convertor.so \
@@ -212,27 +212,27 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libnetmgr.so:vendor/lib/libnetmgr.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libmdmdetect.so:vendor/lib/libmdmdetect.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libperipheral_client.so:vendor/lib/libperipheral_client.so \
-	vendor/samsung/s3ve3g/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
-	vendor/samsung/s3ve3g/proprietary/bin/qmuxd:system/bin/qmuxd \
-	vendor/samsung/s3ve3g/proprietary/bin/efsks:system/bin/efsks \
-	vendor/samsung/s3ve3g/proprietary/bin/ks:system/bin/ks \
-	vendor/samsung/s3ve3g/proprietary/bin/mpdecision:system/bin/mpdecision \
-	vendor/samsung/s3ve3g/proprietary/bin/qcks:system/bin/qcks \
-	vendor/samsung/s3ve3g/proprietary/bin/radish:system/bin/radish \
-	vendor/samsung/s3ve3g/proprietary/bin/rfs_access:system/bin/rfs_access \
-	vendor/samsung/s3ve3g/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-	vendor/samsung/s3ve3g/proprietary/lib/libatparser.so:system/lib/libatparser.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libcordon.so:system/lib/libcordon.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
+	vendor/samsung/s3ve3g/proprietary/bin/ds_fmc_appd:vendor/bin/ds_fmc_appd \
+	vendor/samsung/s3ve3g/proprietary/bin/qmuxd:vendor/bin/qmuxd \
+	vendor/samsung/s3ve3g/proprietary/bin/efsks:vendor/bin/efsks \
+	vendor/samsung/s3ve3g/proprietary/bin/ks:vendor/bin/ks \
+	vendor/samsung/s3ve3g/proprietary/bin/mpdecision:vendor/bin/mpdecision \
+	vendor/samsung/s3ve3g/proprietary/bin/qcks:vendor/bin/qcks \
+	vendor/samsung/s3ve3g/proprietary/bin/radish:vendor/bin/radish \
+	vendor/samsung/s3ve3g/proprietary/bin/rfs_access:vendor/bin/rfs_access \
+	vendor/samsung/s3ve3g/proprietary/bin/rmt_storage:vendor/bin/rmt_storage \
+	vendor/samsung/s3ve3g/proprietary/lib/libatparser.so:vendor/lib/libatparser.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libcordon.so:vendor/lib/libcordon.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libfactoryutil.so:vendor/lib/libfactoryutil.so \
+	vendor/samsung/s3ve3g/proprietary/lib/libomission_avoidance.so:vendor/lib/libomission_avoidance.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libsec-ril.so:vendor/lib/libsec-ril.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libconfigdb.so:vendor/lib/libconfigdb.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libril-qcril-hook-oem.so:vendor/lib/libril-qcril-hook-oem.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libxml.so:vendor/lib/libxml.so \
-	vendor/samsung/s3ve3g/proprietary/lib/libyasalgo.so:system/lib/libyasalgo.so \
-	vendor/samsung/s3ve3g/proprietary/bin/thermal-engine:system/bin/thermal-engine \
+	vendor/samsung/s3ve3g/proprietary/lib/libyasalgo.so:vendor/lib/libyasalgo.so \
+	vendor/samsung/s3ve3g/proprietary/bin/thermal-engine:vendor/bin/thermal-engine \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libthermalclient.so:vendor/lib/libthermalclient.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libthermalioctl.so:vendor/lib/libthermalioctl.so \
-	vendor/samsung/s3ve3g/proprietary/bin/time_daemon:system/bin/time_daemon \
+	vendor/samsung/s3ve3g/proprietary/bin/time_daemon:vendor/bin/time_daemon \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libtime_genoff.so:vendor/lib/libtime_genoff.so \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libTimeService.so:vendor/lib/libTimeService.so 
