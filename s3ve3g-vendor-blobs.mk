@@ -235,31 +235,4 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libthermalioctl.so:vendor/lib/libthermalioctl.so \
 	vendor/samsung/s3ve3g/proprietary/bin/time_daemon:vendor/bin/time_daemon \
 	vendor/samsung/s3ve3g/proprietary/vendor/lib/libtime_genoff.so:vendor/lib/libtime_genoff.so \
-	vendor/samsung/s3ve3g/proprietary/vendor/lib/libTimeService.so:vendor/lib/libTimeService.so \
-	vendor/samsung/s3ve3g/proprietary/audio/bin/audioserver:vendor/audio/bin/audioserver \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/android.hardware.audio.common@2.0.so:vendor/audio/lib/android.hardware.audio.common@2.0.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/android.hardware.audio.effect@2.0.so:vendor/audio/lib/android.hardware.audio.effect@2.0.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/android.hardware.audio@2.0.so:vendor/audio/lib/android.hardware.audio@2.0.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/android.hardware.soundtrigger@2.0.so:vendor/audio/lib/android.hardware.soundtrigger@2.0.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/libaudioclient.so:vendor/audio/lib/libaudioclient.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/libaudioeffect_jni.so:vendor/audio/lib/libaudioeffect_jni.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/libaudioflinger.so:vendor/audio/lib/libaudioflinger.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/libaudiohal.so:vendor/audio/lib/libaudiohal.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/libaudiomanager.so:vendor/audio/lib/libaudiomanager.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/libaudiopolicyenginedefault.so:vendor/audio/lib/libaudiopolicyenginedefault.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/libaudiopolicymanager.so:vendor/audio/lib/libaudiopolicymanager.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/libaudiopolicymanagerdefault.so:vendor/audio/lib/libaudiopolicymanagerdefault.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/libaudiopolicyservice.so:vendor/audio/lib/libaudiopolicyservice.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/libaudioprocessing.so:vendor/audio/lib/libaudioprocessing.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/libaudio-resampler.so:vendor/audio/lib/libaudio-resampler.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/libaudiospdif.so:vendor/audio/lib/libaudiospdif.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/libaudioutils.so:vendor/audio/lib/libaudioutils.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/libsoundpool.so:vendor/audio/lib/libsoundpool.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/libsoundtrigger.so:vendor/audio/lib/libsoundtrigger.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/vndk/android.hardware.audio.common@2.0.so:vendor/audio/lib/vndk/android.hardware.audio.common@2.0.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/vndk/android.hardware.audio.common@2.0-util.so:vendor/audio/lib/vndk/android.hardware.audio.common@2.0-util.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/vndk/android.hardware.audio.effect@2.0.so:vendor/audio/lib/vndk/android.hardware.audio.effect@2.0.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/vndk/android.hardware.audio@2.0.so:vendor/audio/lib/vndk/android.hardware.audio@2.0.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/vndk/android.hardware.soundtrigger@2.0.so:vendor/audio/lib/vndk/android.hardware.soundtrigger@2.0.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/vndk/libaudioroute.so:vendor/audio/lib/vndk/libaudioroute.so \
-	vendor/samsung/s3ve3g/proprietary/audio/lib/vndk/libaudioutils.so:vendor/audio/lib/vndk/libaudioutils.so
+	vendor/samsung/s3ve3g/proprietary/vendor/lib/libTimeService.so:vendor/lib/libTimeService.so 
