@@ -32,13 +32,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/lib/rfsa/adsp/libdspCV_skel.so:vendor/lib/rfsa/adsp/libdspCV_skel.so \
 	vendor/samsung/s3ve3g/proprietary/lib/rfsa/adsp/libfastcvadsp.so:vendor/lib/rfsa/adsp/libfastcvadsp.so \
 	vendor/samsung/s3ve3g/proprietary/lib/rfsa/adsp/libfastcvadsp_skel.so:vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
-	vendor/samsung/s3ve3g/proprietary/etc/Bluetooth_cal.acdb:vendor/etc/Bluetooth_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/etc/General_cal.acdb:vendor/etc/General_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/etc/Global_cal.acdb:vendor/etc/Global_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/etc/Handset_cal.acdb:vendor/etc/Handset_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/etc/Hdmi_cal.acdb:vendor/etc/Hdmi_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/etc/Headset_cal.acdb:vendor/etc/Headset_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/etc/Speaker_cal.acdb:vendor/etc/Speaker_cal.acdb \
 	vendor/samsung/s3ve3g/proprietary/lib/libacdbloader.so:vendor/lib/libacdbloader.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libacdbrtac.so:vendor/lib/libacdbrtac.so \
 	vendor/samsung/s3ve3g/proprietary/lib/libadiertac.so:vendor/lib/libadiertac.so \
