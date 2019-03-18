@@ -245,13 +245,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/s3ve3g/proprietary/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
 	vendor/samsung/s3ve3g/proprietary/etc/acdbdata/QRD/QRD_Headset_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
 	vendor/samsung/s3ve3g/proprietary/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/etc/acdbdata/STOCK/Bluetooth_cal.acdb:vendor/etc/acdbdata/STOCK/Bluetooth_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/etc/acdbdata/STOCK/General_cal.acdb:vendor/etc/acdbdata/STOCK/General_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/etc/acdbdata/STOCK/Global_cal.acdb:vendor/etc/acdbdata/STOCK/Global_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/etc/acdbdata/STOCK/Handset_cal.acdb:vendor/etc/acdbdata/STOCK/Handset_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/etc/acdbdata/STOCK/Hdmi_cal.acdb:vendor/etc/acdbdata/STOCK/Hdmi_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/etc/acdbdata/STOCK/Headset_cal.acdb:vendor/etc/acdbdata/STOCK/Headset_cal.acdb \
-	vendor/samsung/s3ve3g/proprietary/etc/acdbdata/STOCK/Speaker_cal.acdb:vendor/etc/acdbdata/STOCK/Speaker_cal.acdb \
 	vendor/samsung/s3ve3g/proprietary/lib/soundfx/libqcvirt.so:vendor/lib/soundfx/libqcvirt.so \
 	vendor/samsung/s3ve3g/proprietary/lib/soundfx/libqcreverb.so:vendor/lib/soundfx/libqcreverb.so \
 	vendor/samsung/s3ve3g/proprietary/lib/soundfx/libqcbassboost.so:vendor/lib/soundfx/libqcbassboost.so
